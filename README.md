@@ -8,14 +8,14 @@ Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan No
 
 Untuk meng-clone project ini ke lokal:
 
-git clone [Task Tracker CLI](https://github.com/Isaaja/task-tracker-cli.git).
-
 ```bash
-
+git clone https://github.com/Isaaja/task-tracker-cli.git
 cd task-tracker-cli
 ```
 
----
+### 🔗 Langsung akses disini :
+
+[Task-Tracker-CLI](https://github.com/Isaaja/task-tracker-cli.git)
 
 ## 🛠️ Setup & Instalasi
 
