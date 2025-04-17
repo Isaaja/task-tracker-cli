@@ -1,5 +1,5 @@
 
-## 📝 Task Tracker CLI
+# 📝 Task Tracker CLI
 
 Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan Node.js. Menyimpan data task dalam file `task.json`. Setiap task memiliki deskripsi, status (`todo`, `in-progress`, `done`), serta waktu dibuat dan diperbarui.
 
