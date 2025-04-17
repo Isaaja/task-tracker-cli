@@ -53,7 +53,7 @@ function deleteTask(id) {
   const deleted = tasks.splice(taskIndex, 1);
   const dataDeleted = JSON.stringify(deleted);
   saveTask(tasks);
-  console.log(`Task delete (ID: ${id})`);
+  console.log(`Task deleted (ID: ${id})`);
 }
 
 function markTask(id, newMark) {
