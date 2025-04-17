@@ -10,7 +10,7 @@ Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan No
 Untuk meng-clone project ini ke lokal:
 
 ```bash
-git clone https://github.com/Isaaja/task-tracker-cli.git
+git clone https://github.com/Isaaja/task-tracker-cli
 cd task-tracker-cli
 ```
 ---
