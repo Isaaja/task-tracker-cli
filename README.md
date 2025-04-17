@@ -12,7 +12,7 @@ Untuk meng-clone project ini ke lokal:
 ```bash
 git clone https://github.com/Isaaja/task-tracker-cli.git
 cd task-tracker-cli
-
+```
 ---
 
 ## 🛠️ Setup & Instalasi
