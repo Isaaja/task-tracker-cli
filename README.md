@@ -9,11 +9,11 @@ Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan No
 Untuk meng-clone project ini ke lokal:
 
 ```bash
-git This site was built using [GitHub Pages](https://pages.github.com/).
 
 
 cd task-tracker-cli
 ```
+git This site was built using [GitHub Pages](https://pages.github.com/).
 
 ---
 
