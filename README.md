@@ -1,4 +1,3 @@
-
 # 📝 Task Tracker CLI
 
 Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan Node.js. Menyimpan data task dalam file `task.json`. Setiap task memiliki deskripsi, status (`todo`, `in-progress`, `done`), serta waktu dibuat dan diperbarui.
@@ -10,9 +9,11 @@ Saya mencoba membuat Task Tracker sederhana berbasis command-line menggunakan No
 Untuk meng-clone project ini ke lokal:
 
 ```bash
-git clone [GitHub Pages](https://github.com/Isaaja/task-tracker-cli/) 
+git clone[task-tracker-cli GitHub Repo](https://github.com/Isaaja/task-tracker-cli)
+
 cd task-tracker-cli
 ```
+
 ---
 
 ## 🛠️ Setup & Instalasi
@@ -20,6 +21,7 @@ cd task-tracker-cli
 Agar perintah `task-cli` bisa dijalankan langsung di terminal, ikuti langkah berikut:
 
 ### 🔗 Install Secara Lokal menggunakan `npm link`
+
 1. Buka terminal di direktori project kamu.
 2. Jalankan perintah berikut:
    ```bash
@@ -32,43 +34,52 @@ Agar perintah `task-cli` bisa dijalankan langsung di terminal, ikuti langkah ber
 
 > Catatan: `npm link` akan membuat symlink dari global `node_modules` ke direktori project kamu, memungkinkan kamu menjalankan CLI ini secara global selama development.
 
-
 ## 🚀 Cara Kerja / Alur Fungsionalitas
 
 ### 📌 1. **Menambahkan Task**
+
 ```bash
 node index.js add "Deskripsi tugas"
 ```
+
 - Menambahkan task baru dengan status default `todo`.
 - Otomatis membuat ID berdasarkan urutan terakhir.
 - Menyimpan waktu pembuatan dan update saat itu juga.
 
 ### ✏️ 2. **Mengupdate Task**
+
 ```bash
 node index.js update <id> "Deskripsi baru"
 ```
+
 - Memperbarui deskripsi task berdasarkan ID.
 - Waktu update akan diubah ke saat pengeditan dilakukan.
 
 ### ❌ 3. **Menghapus Task**
+
 ```bash
 node index.js delete <id>
 ```
+
 - Menghapus task dari daftar berdasarkan ID.
 
 ### ✅ 4. **Menandai Status Task**
+
 ```bash
 node index.js mark-todo <id>
 node index.js mark-in-progress <id>
 node index.js mark-done <id>
 ```
+
 - Mengubah status task sesuai perintah (`todo`, `in-progress`, `done`).
 - Waktu update akan diperbarui.
 
 ### 📋 5. **Melihat Daftar Task**
+
 ```bash
 node index.js list
 ```
+
 - Menampilkan semua task yang ada.
 
 ```bash
@@ -76,11 +87,13 @@ node index.js list todo
 node index.js list done
 node index.js list in-progress
 ```
+
 - Menampilkan task berdasarkan status yang dipilih.
 
 ---
 
 ## 📂 Struktur Data (`task.json`)
+
 ```json
 [
   {
@@ -96,6 +109,7 @@ node index.js list in-progress
 ---
 
 ## 📦 Dependencies
+
 - Hanya menggunakan built-in module:
   - `fs`
   - `path`
@@ -103,6 +117,7 @@ node index.js list in-progress
 ---
 
 ## 🛠️ Menjalankan Program
+
 1. Pastikan Node.js terinstal.
 2. Jalankan perintah langsung dari terminal seperti contoh di atas.
 3. File `task.json` akan otomatis dibuat di direktori yang sama saat pertama kali menambahkan task.
